@@ -1,0 +1,33 @@
+.top-header {
+  height: 8px;
+  background-color: white;
+  background: linear-gradient(
+    -45deg,
+    rgb(255, 255, 255),
+    #818181,
+    #b33f62,
+    #b33f62
+  );
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.tweet a {
+  color: rgb(109 40 217);
+}
